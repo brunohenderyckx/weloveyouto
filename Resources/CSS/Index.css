@@ -1,0 +1,294 @@
+body {
+  text-align: justify;
+  margin: 0 auto;
+  font-family: Cabin, Helvetica, sans-serif;
+  display: block;
+  font-size: 18px;
+  line-height: 32px;
+  height:200px;
+  width: 1000px;
+}
+
+/* Navigation-Bar & childs */
+
+.Navigation-Bar {
+  width: 1000px;
+  height: 35px;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+}
+
+.Navigation-list {
+  width: 1000px;
+  height: 35px;
+
+  display: flex;
+  justify-content: space-around;
+
+  align-items: center;
+  margin:0px;
+  padding:0px;
+  list-style-type: none;
+}
+
+.navigation-link {
+  width: 200px;
+  height: 32px;
+
+  text-align: center;
+}
+
+.navigation-link a {
+  text-decoration:none;
+  color:#AC2D12;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+
+/* Header & childs */
+
+
+.Header-Main {
+  width: 1000px;
+  height: 580px;
+
+  background-image: url("https://github.com/brunoit/weloveyouto/blob/master/Resources/Images/Kyra_Algonquin3.JPG?raw=true");
+
+  background-position: center;
+
+
+  display:flex;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.Header-Text {
+
+  color:white;
+  font-size: 42px;
+  height: 200px;
+  min-width: 600px;
+  text-align: center;
+}
+
+/* 3 highlighted posts */
+
+.wrapper-posts {
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 280px;
+}
+
+.Post   h1 {
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+  height:170px;
+  font-family: Cabin, Helvetica, sans-serif;
+  font-size: 53px;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  box-sizing: border-box;
+  line-height:80px;
+  margin-top: 0px;
+  text-align:center;
+  }
+
+.Content {
+  height:100px;
+  width: 1000px;
+  text-align: center;
+  margin: 20 auto;
+  display: inline;
+  }
+
+.PostType {
+    font-size: 13px;
+    line-height: 23px;
+    color:#999999;
+    font-family: Cabin, Helvetica, sans-serif;
+    text-align: center;
+    padding-bottom: 0px;
+    margin: 0px;
+  }
+
+.PostedBy {
+    font-size: 14px;
+    line-height: 23px;
+    color:#000618;
+    font-family: Cabin, Helvetica, sans-serif;
+    text-align: center;
+  }
+
+.Gif {
+    margin: auto;
+    padding: 10 px;
+    max-height: 10px;
+    width:100%;
+    object-fit: cover;
+  }
+
+.Photo img {
+    box-sizing: border-box;
+      width: 730px;
+      text-align: justify;
+      border: 10 red solid;
+  }
+
+
+#One {
+    margin-top: 0px;
+  }
+
+#Two {
+    margin-top: 40px;
+  }
+
+#Three {
+    margin-top: 80px;
+  }
+
+.journal {
+    box-sizing: border-box;
+    cursor:pointer;
+    display:block;
+    float:left;
+    font-family:f-rel-mono;
+    font-size:6.25px;
+    font-size-adjust:0.5;
+    height:240.984px;
+    line-height:6.25px;
+    overflow-x:hidden;
+    overflow-y:hidden;
+    padding-bottom:240.984px;
+    position:relative;
+    text-align:left;
+    text-rendering:optimizeLegibility;
+    text-size-adjust:100%;
+    width: 240px;
+    -webkit-font-smoothing:antialiased;
+    padding-right: 0px;
+  }
+
+.image {
+  background-position-x:50%;
+  background-position-y:50%;
+  background-size:cover;
+  box-sizing:border-box;
+  cursor:pointer;
+  display:block;
+  font-family:f-rel-mono;
+  font-size:6.25px;
+  font-size-adjust:0.5;
+  height:240.984px;
+  line-height:6.25px;
+  position:absolute;
+  text-align:left;
+  text-rendering:optimizeLegibility;
+  text-size-adjust:100%;
+  width:240.984px;
+  -webkit-font-smoothing:antialiased;
+  }
+
+.content {
+  box-sizing:border-box;
+  cursor:pointer;
+  display:block;
+  font-family:f-rel-mono;
+  font-size:6.25px;
+  font-size-adjust:0.5;
+  height:240.984px;
+  line-height:6.25px;
+  position:absolute;
+  text-align:left;
+  text-rendering:optimizeLegibility;
+  text-size-adjust:100%;
+  width:240.984px;
+  -webkit-font-smoothing:antialiased;
+  }
+
+.Meta {
+  background-attachment:scroll;
+  background-clip:border-box;
+  background-color:rgba(33, 33, 33, 0.8);
+  background-image:none;
+  background-origin:padding-box;
+  background-position-x:0%;
+  background-position-y:0%;
+  background-repeat-x:;
+  background-repeat-y:;
+  background-size:auto;
+  bottom:0px;
+  box-sizing:border-box;
+  cursor:pointer;
+  display:block;
+  font-family:f-rel-mono;
+  font-size:6.25px;
+  font-size-adjust:0.5;
+  height:60.2344px;
+  left:0px;
+  line-height:6.25px;
+  min-height:25%;
+  padding-bottom:7.5px;
+  padding-left:7.5px;
+  padding-right:7.5px;
+  padding-top:7.5px;
+  position:absolute;
+  right:0px;
+  text-align:left;
+  text-rendering:optimizeLegibility;
+  text-size-adjust:100%;
+  width:240.984px;
+  -webkit-font-smoothing:antialiased;
+  }
+
+.Text {
+  box-sizing:border-box;
+  cursor:pointer;
+  display:block;
+  font-family:f-rel-mono;
+  font-size:6.25px;
+  font-size-adjust:0.5;
+  height:39px;
+  line-height:6.25px;
+  text-align:left;
+  text-rendering:optimizeLegibility;
+  text-size-adjust:100%;
+  width:225.984px;
+  -webkit-font-smoothing:antialiased;
+  }
+
+.ng-binding {
+
+  box-sizing:border-box;
+  color:rgb(170, 170, 170);
+  cursor:pointer;
+  display:block;
+  font-family:f-rel-mono;
+  font-size:11px;
+  font-size-adjust:0.5;
+  font-weight:bold;
+  height:17px;
+  letter-spacing:2.2px;
+  line-height:17.6px;
+  margin-bottom:5px;
+  margin-left:0px;
+  margin-right:0px;
+  margin-top:0px;
+  text-align:left;
+  text-rendering:optimizeLegibility;
+  text-size-adjust:100%;
+  text-transform:uppercase;
+  width:225.984px;
+  -webkit-font-smoothing:antialiased;
+  -webkit-margin-after:5px;
+  -webkit-margin-before:0px;
+  -webkit-margin-end:0px;
+  -webkit-margin-start:0px;
+  }
